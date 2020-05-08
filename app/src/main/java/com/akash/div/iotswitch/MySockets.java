@@ -4,17 +4,16 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
 
 public class MySockets{
-    String ip;
-    int port;
-    Socket s;
-    PrintWriter out;
-    BufferedReader in;
+    private String ip;
+    private int port;
+    private Socket s;
+    private PrintWriter out;
+    private BufferedReader in;
     public MySockets(String ip,int port){
         this.ip=ip;
         this.port=port;
